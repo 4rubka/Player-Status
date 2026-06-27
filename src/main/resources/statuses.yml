@@ -1,0 +1,219 @@
+
+statuses:
+  builder:
+    display: '<gray>Builder'
+    description: 'A skilled builder of worlds'
+    icon: BRICKS
+    price: 0
+    permission: ''
+    category: default
+    slot: 10
+    page: 1
+    custom-model-data: 0
+    requirements: []
+
+  warrior:
+    display: '<red>Warrior'
+    description: 'Fierce fighter of battles'
+    icon: IRON_SWORD
+    price: 1000
+    permission: ''
+    category: combat
+    slot: 11
+    page: 1
+    custom-model-data: 0
+    requirements: []
+
+  legend:
+    display: '<gold>Legend'
+    description: 'A legendary player among legends'
+    icon: GOLDEN_APPLE
+    price: 5000
+    permission: ''
+    category: prestige
+    slot: 12
+    page: 1
+    custom-model-data: 0
+    requirements: []
+
+  pro:
+    display: '<red>Pro'
+    description: 'Professional player'
+    icon: DIAMOND_SWORD
+    price: 10000
+    permission: ''
+    category: prestige
+    slot: 13
+    page: 1
+    custom-model-data: 0
+    requirements: []
+
+  developer:
+    display: '<aqua>Developer'
+    description: 'Server developer'
+    icon: COMMAND_BLOCK
+    price: 0
+    permission: playerstatus.developer
+    category: special
+    slot: 14
+    page: 1
+    custom-model-data: 0
+    requirements: []
+
+  vip:
+    display: '<green>VIP'
+    description: 'Very Important Player'
+    icon: EMERALD
+    price: 2500
+    permission: ''
+    category: ranks
+    slot: 15
+    page: 1
+    custom-model-data: 0
+    requirements: []
+
+  mvp:
+    display: '<light_purple>MVP'
+    description: 'Most Valuable Player'
+    icon: DIAMOND
+    price: 7500
+    permission: ''
+    category: ranks
+    slot: 16
+    page: 1
+    custom-model-data: 0
+    requirements: []
+
+  champion:
+    display: '<yellow>Champion'
+    description: 'Champion of the server'
+    icon: GOLDEN_HELMET
+    price: 15000
+    permission: ''
+    category: prestige
+    slot: 19
+    page: 1
+    custom-model-data: 0
+    requirements: []
+
+  phantom:
+    display: '<dark_purple>Phantom'
+    description: 'Mysterious shadow walker'
+    icon: PHANTOM_MEMBRANE
+    price: 8000
+    permission: ''
+    category: mythical
+    slot: 20
+    page: 1
+    custom-model-data: 0
+    requirements: []
+
+  dragon:
+    display: '<dark_red>Dragon'
+    description: 'Ancient dragon slayer'
+    icon: DRAGON_HEAD
+    price: 20000
+    permission: ''
+    category: mythical
+    slot: 21
+    page: 1
+    custom-model-data: 0
+    requirements: []
+
+  frost:
+    display: '<aqua>Frost'
+    description: 'Master of ice and cold'
+    icon: BLUE_ICE
+    price: 6000
+    permission: ''
+    category: elemental
+    slot: 22
+    page: 1
+    custom-model-data: 0
+    requirements: []
+
+  inferno:
+    display: '<gradient:#FF4500:#FF8C00>Inferno</gradient>'
+    description: 'Blazing fire master'
+    icon: BLAZE_POWDER
+    price: 6000
+    permission: ''
+    category: elemental
+    slot: 23
+    page: 1
+    custom-model-data: 0
+    requirements: []
+
+  shadow:
+    display: '<dark_gray>Shadow'
+    description: 'One with the darkness'
+    icon: WITHER_SKELETON_SKULL
+    price: 12000
+    permission: ''
+    category: mythical
+    slot: 24
+    page: 1
+    custom-model-data: 0
+    requirements: []
+
+  celestial:
+    display: '<gradient:#FFD700:#FFA500>Celestial</gradient>'
+    description: 'Blessed by the stars'
+    icon: NETHER_STAR
+    price: 25000
+    permission: ''
+    category: prestige
+    slot: 25
+    page: 1
+    custom-model-data: 0
+    requirements: []
+
+  thunder:
+    display: '<yellow>Thunder'
+    description: 'Strikes with the force of lightning'
+    icon: TRIDENT
+    price: 9000
+    permission: ''
+    category: elemental
+    slot: 10
+    page: 2
+    custom-model-data: 0
+    requirements: []
+
+  nature:
+    display: '<green>Nature'
+    description: 'Guardian of the natural world'
+    icon: OAK_SAPLING
+    price: 3000
+    permission: ''
+    category: elemental
+    slot: 11
+    page: 2
+    custom-model-data: 0
+    requirements: []
+
+  void:
+    display: '<dark_purple>Void'
+    description: 'Embraced by the endless void'
+    icon: END_PORTAL_FRAME
+    price: 30000
+    permission: ''
+    category: mythical
+    slot: 12
+    page: 2
+    custom-model-data: 0
+    requirements:
+      - 'level:50'
+
+  immortal:
+    display: '<gradient:#FF0000:#FFD700>Immortal</gradient>'
+    description: 'Transcended beyond mortality'
+    icon: TOTEM_OF_UNDYING
+    price: 50000
+    permission: ''
+    category: prestige
+    slot: 13
+    page: 2
+    custom-model-data: 0
+    requirements:
+      - 'level:100'

@@ -1,0 +1,29 @@
+name: PlayerStatus
+version: '${project.version}'
+main: me.rubkax.playerstatus.PlayerStatus
+api-version: '1.20'
+authors: [RubkaX]
+description: Premium player status/title system with GUI, economy, and PlaceholderAPI support
+load: POSTWORLD
+softdepend: [PlaceholderAPI, TAB, LuckPerms, ExcellentEconomy]
+commands:
+  status:
+    description: Open the status menu or manage statuses
+    usage: /<command> [reload|give|remove|reset|list]
+    aliases: [ps, playerstatus]
+permissions:
+  playerstatus.use:
+    description: Allows using the /status command
+    default: true
+  playerstatus.admin:
+    description: Full admin access to PlayerStatus
+    default: op
+  playerstatus.reload:
+    description: Allows reloading the plugin
+    default: op
+  playerstatus.give:
+    description: Allows giving statuses to players
+    default: op
+  playerstatus.remove:
+    description: Allows removing statuses from players
+    default: op

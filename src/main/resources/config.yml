@@ -1,0 +1,82 @@
+
+database:
+  type: sqlite
+  sqlite:
+    file: database.db
+  mysql:
+    host: localhost
+    port: 3306
+    database: playerstatus
+    username: root
+    password: ''
+    pool:
+      maximum-pool-size: 10
+      minimum-idle: 2
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+
+gui:
+  title: '<gradient:#FF6B6B:#4ECDC4>✦ Player Status Menu ✦</gradient>'
+  size: 54
+  fill:
+    enabled: true
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+  buttons:
+    previous-page:
+      slot: 45
+      material: ARROW
+      name: '<yellow>← Previous Page'
+    next-page:
+      slot: 53
+      material: ARROW
+      name: '<yellow>Next Page →'
+    remove-status:
+      slot: 49
+      material: BARRIER
+      name: '<red>✖ Remove Status'
+      lore:
+        - ''
+        - '<gray>Click to remove your current status'
+        - '<gray>You will appear without a title'
+    info:
+      slot: 4
+      material: BOOK
+      name: '<gold>ℹ Status Information'
+      lore:
+        - ''
+        - '<gray>Browse and equip custom statuses!'
+        - ''
+        - '<yellow>Left Click <gray>- Purchase/Equip'
+        - '<yellow>Right Click <gray>- Preview'
+        - ''
+        - '<gray>Your status: <white>%playerstatus_current%'
+    close:
+      slot: 50
+      material: DARK_OAK_DOOR
+      name: '<red>✖ Close'
+
+sounds:
+  open-gui: BLOCK_CHEST_OPEN
+  purchase: ENTITY_PLAYER_LEVELUP
+  equip: ITEM_ARMOR_EQUIP_DIAMOND
+  unequip: ITEM_ARMOR_EQUIP_GENERIC
+  error: ENTITY_VILLAGER_NO
+  page-turn: ITEM_BOOK_PAGE_TURN
+
+integrations:
+  placeholderapi: true
+  tab: true
+  luckperms: true
+  economy: true
+
+cache:
+  player-data-ttl: 300
+  status-list-ttl: 600
+
+chat:
+  enabled: true
+
+nametag:
+  enabled: true
